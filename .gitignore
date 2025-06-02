@@ -1,0 +1,37 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python cache & compiled
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# 虛擬環境與依賴檔案（依你的環境選擇）
+env/
+venv/
+.venv/
+Pipfile.lock
+
+# 測試輸出 / 模型暫存
+*.pkl
+*.joblib
+*.h5
+*.sav
+*.npy
+*.npz
+
+# 模型輸出結果資料夾
+output/
+
+# 紀錄檔 / 日誌檔
+*.log
